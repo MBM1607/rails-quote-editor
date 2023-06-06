@@ -13,7 +13,7 @@ It is created as a Proof of Concept and as a learning exercise.
 
 - Ruby 3.2.2
 - Node
-- Pnpm
+- Yarn
 
 ## Installation
 
@@ -21,7 +21,7 @@ It is created as a Proof of Concept and as a learning exercise.
 git clone git@github.com:MBM1607/rails-quote-editor.git
 cd rails-quote-editor
 bundle install
-pnpm install
+yarn install
 bin/setup
 ```
 

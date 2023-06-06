@@ -73,3 +73,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# For easy forms
+gem 'simple_form', '~> 5.2'

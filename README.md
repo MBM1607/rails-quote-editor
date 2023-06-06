@@ -1,24 +1,32 @@
-# README
+# Quote Editor - A Rails 7 Turbo Hotwire App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple app to demonstrate the use
+of Turbo Hotwire in a Rails 7 app.
 
-Things you may want to cover:
+It is created as a Proof of Concept and as a learning exercise.
 
-* Ruby version
+## Features
 
-* System dependencies
+- Create, edit, and delete quotes
 
-* Configuration
+## Prerequisites
 
-* Database creation
+- Ruby 3.2.2
+- Node
+- Pnpm
 
-* Database initialization
+## Installation
 
-* How to run the test suite
+```bash
+git clone git@github.com:MBM1607/rails-quote-editor.git
+cd rails-quote-editor
+bundle install
+pnpm install
+bin/setup
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Start the server
 
-* Deployment instructions
-
-* ...
+```bash
+bin/dev
+```
